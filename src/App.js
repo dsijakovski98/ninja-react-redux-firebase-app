@@ -1,12 +1,12 @@
-import { BrowserRouter as Router, Switch } from 'react-router-dom';
-import Navbar from './components/Layout/Navbar';
-import Dashboard from './components/Dashboard/Dashboard';
-import ProjectDetails from './components/Projects/ProjectDetails';
-import SignIn from './components/Auth/SignIn';
-import SignUp from './components/Auth/SignUp';
-import CreateProject from './components/Projects/CreateProject';
-import AuthorizedRoute from './components/Routing/AuthorizedRoute';
-import UnauthorizedRoute from './components/Routing/UnauthorizedRoute';
+import { BrowserRouter as Router, Switch } from 'react-router-dom'
+import Navbar from './components/Layout/Navbar'
+import Dashboard from './components/Dashboard/Dashboard'
+import ProjectDetails from './components/Projects/ProjectDetails'
+import SignIn from './components/Auth/SignIn'
+import SignUp from './components/Auth/SignUp'
+import CreateProject from './components/Projects/CreateProject'
+import AuthorizedRoute from './components/Routing/AuthorizedRoute'
+import UnauthorizedRoute from './components/Routing/UnauthorizedRoute'
 
 function App() {
 
@@ -23,7 +23,7 @@ function App() {
         </Switch>
       </div>
     </Router>
-  );
+  )
 }
 
-export default App;
+export default App
