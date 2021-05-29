@@ -1,0 +1,19 @@
+const SIGNIN_SUCCESS = 'SIGNIN_SUCCESS';
+const SIGNIN_ERROR = 'SIGNIN_ERROR';
+
+const SIGNOUT_SUCCESS = 'SIGNOUT_SUCCESS';
+
+const SIGNUP_SUCCESS = 'SIGNUP_SUCCESS';
+const SIGNUP_ERROR = 'SIGNUP_ERROR';
+
+const authTypes = {
+    SIGNIN_SUCCESS,
+    SIGNIN_ERROR,
+
+    SIGNOUT_SUCCESS,
+    
+    SIGNUP_SUCCESS,
+    SIGNUP_ERROR
+};
+
+export default authTypes;
